@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!--- Configuração do Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/styles/style.css" rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@100;300;400;500;600&display=swap"
+        rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="icon" type="image/png" href="./assets/icons/g.png">
+    <title>Portfólio | Guilherme Moreira</title>
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <h2><a class="logo" href="#">&ltGuilherme Moreira/&gt</a></h2>
+
+            <ul id="nav-list" class="nav-list">
+                <li class="item-list"><a class="nav-link" href="#about">Sobre mim</a></li>
+                <li class="item-list"><a class="nav-link" href="#projects">Projetos</a></li>
+                <li class="item-list"><a class="nav-link" href="#skills">Conhecimentos</a></li>
+                <li class="item-list"><a class="nav-link" href="#contacts">Contato</a></li>
+            </ul>
+
+            <div class="menu-icon">
+                <div id="line-one" class="line-1"></div>
+                <div id="line-two" class="line-2"></div>
+                <div id="line-three" class="line-3"></div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+
+        <section id="home" class="s-home">
+            <article class="article-home">
+                <spam class="spam-home d-200">Olá, meu nome é</spam>
+                <h1 class="d-300">
+                    <spam>Gui</spam>lherme<spam> More</spam>ira
+                </h1>
+                <p id="typeWriter" class="d-300">Learning is like the horizon: there are no limits.</p>
+            <div class="d-flex btns-ajuste align-items-center"> 
+                <a href="#contacts"><button type="submit" class="get-in-touch btn mr-5 w-100" >Contate-me</button></a>
+                <a href="./assets/docs/Currículo Full Stack Java - Guilherme Moreira.pdf" target="_blank"><button type="submit" class="cv-download btn ml-4 w-100">CV Download</button></a>
+            </div> 
+            </article>
+
+            <img class="img-home" src="./assets/icons/svg1.svg" alt="UndrawSvg">
+
+        </section>
+<!-- Seção de minhas informações -->
+        <section id="about" class="s-about">
+
+            <img class="profile-about d-200" src="./assets/icons/perfil.png" alt="ProfilePng" height="400">
+
+            <article class="article-about">
+                <h2 class="title-about d-200">Quem sou eu <spam class="point">.</spam>
+                </h2>
+                <p class="paragraph-about d-200">
+                    Sou Guilherme Moreira Carvalho de Souza, tenho 24 anos, sou Desenvolvedor Full Stack
+                    focado em Back-end e venho constantemente aprimorando meus conhecimentos em
+                    <spam>Java, Spring Boot e demais tecnologias</spam>. Sou formado em Engenharia Mecânica mas a minha paixão por tecnologia falou
+                    mais alto e resolvi fazer uma transição de carreira, atualmente estou cursando Análise e Desenvolvimento de
+                    Sistemas no Centro Universitário Uninter e atualmente atuo como <spam>Analista Desenvolvedor Java Jr</spam>. 
+                    <p> No meu tempo livre gosto bastante de estudar, treinar, jogar bola e jogar. Possuo conhecimento intermediário no idioma Inglês.</p>
+                </p>
+            </article>
+
+        </section>
+<!-- Seção criada para destacar os meus projetos criados até hoje -->
+        <section id="projects" class="s-projects">
+
+            <h2 class="title-projects d-200">Projetos <spam class="point">.</spam>
+            </h2>
+
+            <div class="container-projects d-300">
+                <div class="row-1">
+                    <div class="cards-project d-300">
+                        <img src="./assets/icons/guicar.png" alt="">
+
+                        <div class="project-info">
+                            <h4>Guicar</h4>
+                            <p> Projeto onde tinha como objetivo criar uma página de anúncios de carros, com back-end e front-end.
+                            </p>
+                            <div class="d-flex btns-project">
+                                <button class="btn view-live w-50 py-3"><a href="https://guicar.netlify.app/"
+                                    target="_blank">View Live</a> </button>
+                                <button class="github-repo ml-2 w-50"><a href="https://github.com/moreiraguui/Guicar-FrontEnd"
+                                    target="_blank">GitHub Repo</a></button>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="cards-project">
+                        <img src="./assets/icons/wehug.png" alt="">
+
+                        <div class="project-info">
+                            <h4>Wehug</h4>
+                            <p>Projeto em grupo de finalização do Bootcamp de Pessoa Desenvolvedora Full Stack Java Jr.
+                            </p>
+                            <div class="d-flex btns-project">
+                                <button class="btn view-live w-50 py-3"><a href="https://wehug.netlify.app/"
+                                    target="_blank">View Live</a></button>
+                                <button class="github-repo ml-2 w-50"><a href="https://github.com/Projeto-We-Hug"
+                                    target="_blank">GitHub Repo</a></button>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="cards-project">
+                        <img src="./assets/icons/twd.png" alt="">
+
+                        <div class="project-info">
+                            <h4>Landing Page TWD</h4>
+                            <p>Projeto do Bootcamp para criação de uma Landing Page (TWD), utilizando HTML, CSS e Bootstrap.</p>
+                            <div class="d-flex btns-project">
+                                <button class="btn view-live w-50 py-3"> <a href="https://guilhermetwd.netlify.app/"
+                                    target="_blank">View Live</a></button>
+                                <button class="github-repo ml-2 w-50"><a href="https://github.com/moreiraguui/Landing-PageTWD"
+                                    target="_blank">GitHub Repo</a></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row-2">
+                    <a href="#" class="cards-project">
+                        <div class="embreve">
+                            <p>EM BREVE</p>
+                        </div>
+                    </a>
+
+                    <a href="#" class="cards-project">
+                        <div class="embreve">
+                            <p>EM BREVE</p>
+                        </div>
+                    </a>
+
+                    <a href="#" class="cards-project">
+                        <div class="embreve">
+                            <p>EM BREVE</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+            <button class="show-more d-200">Ver mais</button>
+
+        </section>
+<!-- Seção criada para destacar os meus conhecimento de stacks -->
+        <section id="skills" class="s-skills">
+
+            <article class="article-skills">
+                <h2 class="title-skills d-200">Conhecimentos <spam class="point">.</spam>
+                </h2>
+                <spam class="card-name"></spam>
+                <p id="info-skills" class="d-300">* passe o cursor sobre os ícones para saber mais *
+            </article>
+
+            <div class="grid-skills d-400">
+                <div class="card-skills java" >
+                    <img src="./assets/icons/java.png" width="20" height="80" alt="JavaPng">
+                    <!-- <spam>HTML</spam> -->
+                </div>
+
+                <div class="card-skills spring" >  
+                    <img src="./assets/icons/spring.png" width="20" height="80" alt="SpringPng">
+                    <!-- <spam>CSS</spam> -->
+                </div>
+
+                <div class="card-skills js">
+                    <img src="./assets/icons/JavaScript.svg" alt="JavaSriptSvg" />
+                    <!-- <spam>JavaScript</spam> -->
+                </div>
+
+                <div class="card-skills git">
+                    <img src="./assets/icons/Git.svg" alt="GitSvg">
+                    <!-- <spam>Git</spam> -->
+                </div>
+
+                <div class="card-skills html">
+                    <img src=" ./assets/icons/HTML.svg" alt="HtmlSvg">
+                    <!-- <spam>Responsividade</spam> -->
+                </div>
+
+                <div class="card-skills css">
+                    <img src="./assets/icons/css.svg" alt="CssSvg">
+                    <!-- <spam>Acessibilidade</spam> -->
+                </div>
+            </div>
+
+        </section>
+<!-- Seção criada com as minhas redes sociais para ter contato comigo -->
+        <section id="contacts" class="s-contact">
+
+            <article class="article-contact">
+
+                <h2 class="title-contact d-200">
+                    Contato <spam class="point">.</spam>
+                </h2>
+
+                <div class="social-links d-400">
+
+                    <a href="https://www.linkedin.com/in/guilherme-moreira-souza/">
+                        <img src="./assets/icons/linkedIn.svg" alt="LinkedIn">
+                    </a>
+
+                    <a href="https://github.com/moreiraguui"><img src="./assets/icons/GitHub.svg" alt="GitHub" target="_blank">
+                    </a>
+
+                    <a href="https://discord.gg/"><img src="./assets/icons/discord.svg" alt="Discord" target="_blank"></a>
+
+                    <a href="https://contate.me/guimoreira"><img src="./assets/icons/whatsapp.svg" alt="WhatsApp" target="_blank"></a>
+                </div>
+
+            </article>
+
+            <!-- Ao enviar um email para mim, o mesmo será encaminhado através desta API externa -->
+            <form action="https://formsubmit.co/guilhermecsouza00@gmail.com" method="POST" class="form d-400">
+                <label>
+                    <input type="text" name="Nome" placeholder="Seu nome" required autocomplete>
+                </label>
+
+                <label>
+                    <input type="email" name="Email" placeholder="seuemail@email.com" required autocomplete="">
+                </label>
+
+                <label>
+                    <textarea name="Mensagem" placeholder="Deixe sua mensagem"></textarea>
+                </label>
+
+                <input type="hidden" name="_captcha" value="false">
+
+                <button type="submit">Enviar</button>
+            </form>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <a href="#">Back To Top <img src="./assets/icons/arrow.png" alt="arrowUp"></a>
+    </footer>
+<!--- Configuração do Java Script -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="./assets/scripts/configScroll.js"></script>
+    <script src="./assets/scripts/changeDescription.js"></script>
+    <script src="./assets/scripts/typeWriter.js"></script>
+    <script src="./assets/scripts/showMore.js"></script>
+    <script src="./assets/scripts/menu.js"></script>
+
+<!--- Configuração do Bootstrap -->
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js" integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous"></script>
+</body>
+
+
+</html>
